@@ -1,0 +1,9 @@
+prototype(Triangular.Site:Component.Layout.Default) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <Triangular.Site:Component.Header />
+        {props.content}
+        <Triangular.Site:Component.Footer />
+    `
+}

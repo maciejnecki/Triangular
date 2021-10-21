@@ -1,0 +1,8 @@
+'Triangular.Site:Content.Image':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Triangular.Site:Mixin.Image': true
+  ui:
+    label: Image
+    icon: picture
+    position: 300
