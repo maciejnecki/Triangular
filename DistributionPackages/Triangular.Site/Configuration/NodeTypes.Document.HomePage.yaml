@@ -17,6 +17,28 @@
             formatting:
               a: true
             placeholder: i18n
+    headerText:
+      type: string
+      defaultValue: 'Site Name'
+      ui:
+        label: 'Site Title'
+        inlineEditable: false
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'general'
+          editorOptions:
+            placeholder: 'Enter title here'
+    headerLogo:
+      type: 'Neos\Media\Domain\Model\ImageInterface'
+      ui:
+        label: 'Logo'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'general'
+          editorOptions:
+            features:
+              crop: true
+              resize: false
     footerItems:
       type: references
       ui:

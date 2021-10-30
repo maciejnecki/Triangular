@@ -15,7 +15,7 @@ Neos:
                     hyphens: true
                     nbsp: true
                     formatting:
-                      h1: false
+                      h1: true
                       h2: true
                       h3: true
                       h4: true
@@ -68,7 +68,7 @@ Neos:
                       sub: true
                       sup: true
                       p: true
-                      h1: false
+                      h1: true
                       h2: true
                       h3: true
                       h4: true

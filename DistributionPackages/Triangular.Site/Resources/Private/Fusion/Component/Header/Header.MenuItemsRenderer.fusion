@@ -3,21 +3,19 @@ prototype(Triangular.Site:Component.Header.MenuItemsRenderer) < prototype(Neos.F
 
     @if.has = ${this.items}
     renderer = afx`
-        <ul class="navigation">
-            <Neos.Fusion:Loop items={props.items} itemName="menuItem" @children="itemRenderer">
-                <li class={'navigation-item ' + (menuItem.state ? 'navigation-item--state-' + menuItem.state : '') }>
-                    <Carbon.Link:Link
-                        node={menuItem.node}
-                        backendLink={true}
-                        renderDefaultTagIfNoLink={true}>
-                        { menuItem.label }
-                    </Carbon.Link:Link>
+    <Neos.Fusion:Loop items={props.items} itemName="menuItem" @children="itemRenderer">
+        <a class={'navigation-item ' + (menuItem.state ? 'navigation-item--state-' + menuItem.state : '') }>
+            <Carbon.Link:Link
+              node={menuItem.node}
+              backendLink={true}
+              renderDefaultTagIfNoLink={true}>
+              { menuItem.label }
+            </Carbon.Link:Link>
 
-                    <Triangular.Site:Component.Header.MenuItemsRenderer
-                        items={menuItem.subItems}
-                        />
-                </li>
-            </Neos.Fusion:Loop>
-        </ul>
+            <Triangular.Site:Component.Header.MenuItemsRenderer
+            items={menuItem.subItems}
+            />
+        </a>
+    </Neos.Fusion:Loop>
     `
 }
