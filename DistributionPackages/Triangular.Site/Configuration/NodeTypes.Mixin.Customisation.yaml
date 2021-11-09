@@ -57,5 +57,5 @@
                 label: 'Tint Color'
               themeColor:
                 label: 'Theme Color'
-              secodnaryColor:
-                label: 'Secodnary Color'
+              secondaryColor:
+                label: 'Secondary Color'

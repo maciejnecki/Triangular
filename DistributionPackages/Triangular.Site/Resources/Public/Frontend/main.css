@@ -31,10 +31,10 @@
 
     --border-margin: -0.0625rem;
 
-    --color: #004CE6;
-    --color-1: #F29780;
-    --color-2: #196E80;
-    --color-3: #141F33;
+    --color: #004CE6;   /* Accent */
+    --color-1: #E69267; /* Tint */
+    --color-2: #141F33; /* Theme */
+    --color-3: #3AA67A; /* Secondary */
 
     --bg-color: #F1F6FF;
     --bg-color-1: #CFD8E6;
@@ -121,7 +121,7 @@
 .accentColor {color: var(--white-color); background: var(--color)}
 .tintColor {color: var(--white-color); background: var(--color-1)}
 .themeColor {color: var(--white-color); background: var(--color-2)}
-.secodnaryColor {color: var(--white-color); background: var(--color-3)}
+.secondaryColor {color: var(--white-color); background: var(--color-3)}
 
 .left { text-align: left; }
 .center { text-align: center; }
@@ -830,6 +830,8 @@ a.card {
 }
 
 .container {
+    padding: 6px;
+    border-radius: 2px;
     position: relative;
     display: block;
     clear: both;
@@ -869,6 +871,19 @@ a.card {
 .profile + * {
     margin-top: var(--space-2xs);
 }
+
+.cookie {
+    max-width: 400px;
+    -webkit-box-shadow: 0 1px 3px #C0C5CC;
+    -moz-box-shadow: 0 1px 3px #C0C5CC;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.06), 0 3px 6px rgba(0,0,0,0.13);
+    border: 1px solid var(--color-1);
+    z-index: 99;
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+}
+
 /* pwa */
 @media (display-mode: standalone) {
 
