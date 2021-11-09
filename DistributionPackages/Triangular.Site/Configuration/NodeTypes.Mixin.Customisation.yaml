@@ -19,6 +19,8 @@
       groups:
         customisation:
           label: 'Customisation'
+        extraCustomisation:
+          label: 'More Customisation'
   properties:
     centering:
       type: string
@@ -44,7 +46,7 @@
       type: string
       defaultValue: ''
       ui:
-        label: 'Foreground Color'
+        label: 'Color Scheme'
         reloadIfChanged: true
         inspector:
           group: 'customisation'
@@ -59,3 +61,41 @@
                 label: 'Theme Color'
               secondaryColor:
                 label: 'Secondary Color'
+    # backgroundColor:
+    #   type: string
+    #   ui:
+    #     label: 'Override Background Color'
+    #     reloadIfChanged: true
+    #     inspector:
+    #       group: 'extraCustomisation'
+    #       editor: 'Shel.Neos.ColorPicker/ColorPickerEditor'
+    #       editorOptions:
+    #         # `mode` can be one of "rgba", "hsla", "hex"
+    #         mode: 'rgba'
+    #         # Show saturation/hue/alpha (optional), boolean, default: true
+    #         picker: true
+    #         # Show hex/rgba fields (optional), boolean, default: true
+    #         fields: true
+    #         # Show preset colors (optional), array of colors or boolean (to disable)
+    #         presetColors: ['#004CE6', '#E69267', '#141F33', '3AA67A']
+    #         # Hides the reset button if set to false
+    #         allowEmpty: true
+    # textColor:
+    #   type: string
+    #   ui:
+    #     label: 'Override Text Color'
+    #     reloadIfChanged: true
+    #     inspector:
+    #       group: 'extraCustomisation'
+    #       editor: 'Shel.Neos.ColorPicker/ColorPickerEditor'
+    #       editorOptions:
+    #         # `mode` can be one of "rgba", "hsla", "hex"
+    #         mode: 'rgba'
+    #         # Show saturation/hue/alpha (optional), boolean, default: true
+    #         picker: true
+    #         # Show hex/rgba fields (optional), boolean, default: true
+    #         fields: true
+    #         # Show preset colors (optional), array of colors or boolean (to disable)
+    #         presetColors: ['#004CE6', '#E69267', '#141F33', '3AA67A']
+    #         # Hides the reset button if set to false
+    #         allowEmpty: true

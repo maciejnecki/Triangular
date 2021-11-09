@@ -5,6 +5,8 @@ prototype(Triangular.Site:Content.Container) < prototype(Neos.Neos:ContentCompon
     color = ${q(node).property('color')}
     backgroundPosition = ${q(node).property('backgroundPosition')}
 
+
+
     lazy = ${q(node).prev().is()}
     src = Neos.Fusion:Case {
         image {

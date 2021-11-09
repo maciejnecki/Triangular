@@ -51,7 +51,7 @@ prototype(Triangular.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
         @position = 'before closingBodyTag'
 
         renderer = afx`
-            <script type="text/javascript" src={StaticResource.uri('Triangular.Site', 'Public/Frontend/jquery-2.1.3.min.js')}></script>
+            <script type="text/javascript" src={StaticResource.uri('Triangular.Site', 'Public/Frontend/jquery-3.6.0.min.js')}></script>
             <script type="text/javascript" src={StaticResource.uri('Triangular.Site', 'Public/Frontend/jquery-eu-cookie-law-popup.js')}></script>
             <!--
             Sitegeist.Lazybones required lazysizes, we recommend to include
