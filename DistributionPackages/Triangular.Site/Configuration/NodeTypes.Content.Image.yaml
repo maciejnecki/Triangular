@@ -2,6 +2,7 @@
   superTypes:
     'Neos.Neos:Content': true
     'Triangular.Site:Mixin.Image': true
+    'Shel.Blog:Constraint.Article': true
   ui:
     label: Image
     icon: picture

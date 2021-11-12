@@ -1,6 +1,7 @@
 'Triangular.Site:Content.Headline':
   superTypes:
     'Neos.Neos:Content': true
+    'Shel.Blog:Constraint.Article': true
   ui:
     label: Headline
     icon: header

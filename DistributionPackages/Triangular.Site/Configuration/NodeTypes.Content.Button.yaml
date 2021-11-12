@@ -2,6 +2,7 @@
   superTypes:
     'Neos.Neos:Content': true
     'Triangular.Site:Mixin.StandardCustomisation': true
+    'Shel.Blog:Constraint.Article': true
   ui:
     label: 'Button'
     icon: icon-toggle-on

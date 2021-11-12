@@ -1,5 +1,5 @@
 * Contact Form
-* Blog posts
+[X]] Blog posts
 [Author Broken Plugin?] Image galleries
 * Sandstorm user management?
 [X] code block

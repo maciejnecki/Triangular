@@ -1,6 +1,7 @@
 'Triangular.Site:Content.CodeBlock':
   superTypes:
     'Neos.Neos:Content': true
+    'Shel.Blog:Constraint.Article': true
   ui:
     label: Code Block
     icon: code

@@ -3,6 +3,7 @@
     'Neos.Neos:Content': true
     'Neos.Neos:ContentCollection': true
     'Triangular.Site:Mixin.StandardCustomisation': true
+    'Shel.Blog:Constraint.Article': true
   ui:
     label: 'Container'
     icon: square-o
