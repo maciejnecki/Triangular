@@ -8,6 +8,7 @@
     reloadIfChanged: true
     icon: arrows-v
     position: 200
+    group: structure
     inlineEditable: true
     inspector:
       groups:

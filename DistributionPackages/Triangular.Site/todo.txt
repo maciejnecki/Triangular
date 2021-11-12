@@ -1,7 +1,6 @@
 * Contact Form
-[X]] Blog posts
+[X] Blog posts
 [Author Broken Plugin?] Image galleries
-* Sandstorm user management?
 [X] code block
 [X] Cookies notice
 [X] Color picker

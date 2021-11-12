@@ -4,4 +4,4 @@
   ui:
     label: i18n
     icon: file-o
-    position: 100
+    position: -10

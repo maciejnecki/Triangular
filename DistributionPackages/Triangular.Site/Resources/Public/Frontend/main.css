@@ -31,7 +31,7 @@
 
     --border-margin: -0.0625rem;
 
-    --color: #004CE6;   /* Accent */
+    --color: #1966FF;   /* Accent */
     --color-1: #E69267; /* Tint */
     --color-2: #141F33; /* Theme */
     --color-3: #3AA67A; /* Secondary */
@@ -718,9 +718,39 @@ thead td.action {
     }
 }
 
+/* Blog  */
+section.blog-feed li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px;
+}
+
+section.blog-feed nav {
+  text-align: center;
+}
+
+article {
+  padding: 6px;
+  margin-bottom: 16px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.06), 0 3px 6px rgba(0,0,0,0.13);
+  border: 1px solid var(--color-3);
+  border-radius: 3px;
+  background: var(--bg-color);
+}
+
+article img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.blog-latest-articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: var(--space);
+  row-gap: var(--space);
+}
+
 /* card */
-
-
 .card img {
     border-radius: 0.5rem;
 }
@@ -790,9 +820,6 @@ a.card {
 .card h2 {
     margin-top: 0rem;
 }
-
-
-
 
 
 /* misc */

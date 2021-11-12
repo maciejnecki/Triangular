@@ -8,6 +8,7 @@
     label: 'Container'
     icon: square-o
     position: 200
+    group: structure
     inlineEditable: true
     inspector:
       groups:

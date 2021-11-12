@@ -5,7 +5,7 @@
   ui:
     label: Headline
     icon: header
-    position: 200
+    position: -10
     inlineEditable: true
   properties:
     title:

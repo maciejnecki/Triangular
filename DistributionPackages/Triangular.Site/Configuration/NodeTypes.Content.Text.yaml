@@ -6,7 +6,7 @@
   ui:
     label: Text
     icon: file-text
-    position: 200
+    position: -9
     inlineEditable: true
   properties:
     text:
