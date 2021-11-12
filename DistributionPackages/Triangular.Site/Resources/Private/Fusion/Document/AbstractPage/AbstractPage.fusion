@@ -1,7 +1,7 @@
 
 ##
 # This prototypes object are sequenctially rendered as strings
-# and output to form the the html response.
+# and output to form the html response.
 #
 # For all the base data, see Neos.Neos:Page
 ##

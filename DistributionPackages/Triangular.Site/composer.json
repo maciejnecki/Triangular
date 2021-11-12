@@ -21,6 +21,7 @@
         "sitegeist/lazybones": "^3.0",
 
         "shel/neos-colorpicker": "*",
+        "shel/blog": "*",
         "dl/gallery": "*",
 
         "neos/nodetypes-contentreferences": "*"

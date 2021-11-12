@@ -1,0 +1,2 @@
+prototype(Shel.Blog:Document.GenericBlogPage) < prototype(Triangular.Site:Document.AbstractPage) {
+}
