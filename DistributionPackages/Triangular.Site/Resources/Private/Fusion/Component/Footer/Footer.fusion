@@ -11,6 +11,8 @@ prototype(Triangular.Site:Component.Footer) < prototype(Neos.Neos:ContentCompone
         <footer class="main-footer">
             <div>{props.footerInfo}</div>
             <div>&copy; {props.year}</div>
+            <br />
+            <strong>Navigate to...</strong>
             <ul class="main-footer__menu">
                 <Neos.Fusion:Loop items={props.footerItems} itemName="menuItem">
                     <li class="main-footer__menu-item">

@@ -49,7 +49,7 @@ prototype(Triangular.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                     </div>
                 </nav>
 
-                <nav id="secondary-menu">
+                <!-- <nav id="secondary-menu">
                     <input type="checkbox" id="secondary-menu-button" name="menu-button" class="menu-button"></input>
                     <label for="secondary-menu-button">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -62,7 +62,7 @@ prototype(Triangular.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                         <a href="#">My account</a>
                         <a href="/">Logout</a>
                     </div>
-                </nav>
+                </nav> -->
             </div>
         </header>
     `
