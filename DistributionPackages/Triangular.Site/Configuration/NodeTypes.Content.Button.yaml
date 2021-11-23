@@ -17,6 +17,7 @@
       defaultValue: 'Button Title'
       ui:
         label: 'Title'
+        reloadIfChanged: true
         inlineEditable: false
         inspector:
           group: 'settings'

@@ -98,8 +98,8 @@
         --bg-color: #101726;
         --bg-color-1: #141F33;
 
-        --text-color: #c9c9c9;
-        --text-color-1: #f0f0f0;
+        --text-color: #F1F6FF;
+        --text-color-1: #F1F6FF;
         --text-color-2: #999;
         --text-color-3: #ccc;
 
@@ -635,6 +635,13 @@ thead td.action {
     #primary-menu .menu-items a:hover {
         color: var(--color);
     }
+
+    #primary-menu .menu-items a.link-node {
+      border-top: 2px solid var(--color);
+    }
+    #primary-menu .menu-items a.link-node:active {
+      border-top: 2px solid var(--color-1);
+    }
 }
 
 /* grid */
@@ -870,6 +877,7 @@ a.card {
     display: block;
     clear: both;
     max-width: var(--container);
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     overflow: visible;
